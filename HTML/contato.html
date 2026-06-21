@@ -32,21 +32,24 @@
 
     <div class="">
         <h1>Contato</h1>
-        <form action="" method="post">
-            <label for="nome">Nome:</label>
+        <form id="MENSAGEM">
+            <label>Nome:</label>
             <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required><br><br>
 
-            <label for="email">Email:</label>
+            <label>Email:</label>
             <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required><br><br>
 
-            <label for="telefone">Telefone:</label>
+            <label>Telefone:</label>
             <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required><br><br>
 
-            <label for="mensagem">Mensagem:</label>
+            <label>Mensagem:</label>
             <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem aqui..." required></textarea><br><br>
 
             <button type="submit">Enviar</button>
+
+            <div id="statusEnvio"></div>
         </form>
+        
     </div>
 
 
@@ -63,6 +66,8 @@
         </ul>
 
     </div>
+
+    <script src="/Politico/PHP/Odio.js"></script>
 
 </body>
 
