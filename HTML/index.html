@@ -6,6 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ronronaldo 77</title>
     <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .destaques {
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .caixas-destaque {
+            margin-bottom: 20px; 
+            padding: 10px;
+        }
+        #Ronronaldo .imagens {
+            float: right;
+        }
+        #meowl{
+            padding-bottom: 7vh;
+        }
+        #meowl .imagens {
+            float: left;
+        }
+
+        
+        
+        @media (max-width: 1309px) {
+            #meowl.destaques {
+                flex-direction: column-reverse  ;
+            }
+        }
+    </style>
     <!-- tem que colocar a classe aqui nas div eu não coloquei nome em nenhuma classe, algumas possuem outras não então conferir-->
 </head>
 
@@ -19,20 +51,20 @@
 
         </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="historia.html">Historia</a></li>
-                <li><a href="propostas.html">Propostas</a></li>
-                <li><a href="agenda.html">Agenda</a></li>
-                <li><a href="album.html">Fotos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+
+            <a href="index.html">Home</a>
+            <a href="historia.html">Historia</a>
+            <a href="propostas.html">Propostas</a>
+            <a href="agenda.html">Agenda</a>
+            <a href="album.html">Fotos</a>
+            <a href="contato.html">Contato</a>
+
         </nav>
     </header>
 
-    <div class="">
+    <div class="conteiner">
 
-        <div class="">
+        <div class="balao">
 
             <!-- aqui é para agente colocar aquela imagem que fizemos aqui do presidente e da vice presidente-->
             <img src="" alt="Imagem do presidente e da vice presidente">
@@ -48,28 +80,82 @@
                         <p class="sub-slogan">Sachê para todos, areia limpa já. Uma nação que ronrona.</p>
                         <a href="#propostas" class="btn-primary">Ver Propostas</a>
                     </div>
-                </section>
-            -->
+                </section> -->
+
 
         </div>
         <div class="destaques">
-            <ul>
-                <li>
-                    <h1>Destaque1</h1>
-                    <p>Texto do destaque</p>
-                    <img src="" alt="Imagens envolvendo o destaque">
+            <div class="caixas-destaque balao">
+                <h1>Destaque 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eligendi, maiores quasi ipsam iusto eveniet accusantium dolorum tempore quidem inventore, fugit illo. Commodi distinctio aliquam odit blanditiis. Vitae, veniam saepe.
+                Totam accusantium veritatis adipisci consequatur eaque dicta harum maiores? Maiores ullam, architecto, nobis nisi eveniet consequuntur ipsam enim praesentium quam alias magni. Maxime omnis consequuntur, in accusamus velit laborum excepturi.
+                Vel unde quasi qui veritatis dignissimos voluptatum, tenetur et quas excepturi fugiat! Quia vitae deleniti eum cumque eligendi nulla, aliquam nisi, perferendis labore molestias vel consequatur quae ab ipsa sequi!
+                Odit, et dolor velit quos suscipit deleniti dolorem similique cum, est id tempore veniam eius consectetur minus sit neque magni! Nisi neque asperiores quisquam, libero delectus assumenda velit labore commodi.
+                Quisquam ea enim, amet expedita et, unde mollitia assumenda eligendi voluptas eaque sunt autem alias laudantium labore voluptatum in, rem deleniti atque cumque iure similique quibusdam voluptatem dolorum. Totam, et?</p>
+                
+            </div>
 
-                    <!--aqui podemos colocar varias textos pequenos com imagens dos destaques do politico -->
-                </li>
+             <div class="balao-metade imagens">
+                    <div class="caixa-flex" style="flex-direction: row;">
+                        <img class="imagem" src="https://i.pinimg.com/736x/ac/c1/24/acc12492b3122360ae0653deea98feb4.jpg" alt="Imagens envolvendo o destaque">
 
-                <li>
-                    <h1>Destaque2</h1>
-                    <p>Texto do destaque</p>
-                    <img src="" alt="Imagens envolvendo o destaque">
+                        <div class="grid-coluna">
+                            <div class="grid-linha">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/8a/fd/39/8afd39d4469525d6ffd0b379827d9234.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/8a/fd/39/8afd39d4469525d6ffd0b379827d9234.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/8a/fd/39/8afd39d4469525d6ffd0b379827d9234.jpg" alt="Imagem relacionada ao destaque">
+                            </div>
+                            <div class="grid-linha">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/8a/fd/39/8afd39d4469525d6ffd0b379827d9234.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/8a/fd/39/8afd39d4469525d6ffd0b379827d9234.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/8a/fd/39/8afd39d4469525d6ffd0b379827d9234.jpg" alt="Imagem relacionada ao destaque">
+                            </div>
+                            <div class="grid-linha">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/8a/fd/39/8afd39d4469525d6ffd0b379827d9234.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/8a/fd/39/8afd39d4469525d6ffd0b379827d9234.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/8a/fd/39/8afd39d4469525d6ffd0b379827d9234.jpg" alt="Imagem relacionada ao destaque">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
 
-                    <!--aqui podemos colocar varias textos pequenos com as propostas do politico -->
-                </li>
-            </ul>
+            <!--aqui podemos colocar varias textos pequenos com as propostas do politico -->
+        </div>
+
+        <div id="meowl" class="destaques ">
+            <div class="balao-metade imagens">
+                    <div  class="caixa-flex">
+                        <img class="imagem" src="https://i.pinimg.com/736x/8a/fd/39/8afd39d4469525d6ffd0b379827d9234.jpg" alt="Imagens envolvendo o destaque">
+
+                        <div class="grid-coluna">
+                            <div class="grid-linha">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/3a/81/a8/3a81a84f52b47d7e765dd8b79c444372.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/63/c8/7d/63c87d5d6c9e4a7d504c38d2834d5b15.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/66/f7/06/66f706656e12dfb504e70ddce24ab4de.jpg" alt="Imagem relacionada ao destaque">
+                            </div>
+                            <div class="grid-linha">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/474x/da/57/da/da57da7e8d524b617e416719981f9ffb.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/ae/66/ef/ae66ef4281fc7c5bf4350977a819e572.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/1200x/69/58/d8/6958d87d5c39233046611667b3e1ffe4.jpg" alt="Imagem relacionada ao destaque">
+                            </div>
+                            <div class="grid-linha">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/e7/7e/df/e77edfc9d428c20ba21c78cce939cc9e.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/32/96/fd/3296fd711d3fc16554aaa8c21d7fa1e7.jpg" alt="Imagem relacionada ao destaque">
+                                <img class="imagem-pequena" src="https://i.pinimg.com/736x/ee/f0/95/eef095c5aa9758522e6778c7cce0ea1c.jpg" alt="Imagem relacionada ao destaque">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            <!--aqui podemos colocar varias textos pequenos com imagens dos destaques do politico -->
+            <div  class="caixas-destaque balao">
+                <h1>Destaque 2</h1>
+                
+                <p>Texto do destaque</p>
+
+                
+            </div>
         </div>
     </div>
 
